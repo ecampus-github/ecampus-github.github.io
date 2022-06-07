@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><title>과제3 나만의 검색 폼</title></head>
+<style>
+	 span { color : red; font-size : 15px; } 
+</style>
+<body>
+   	<h3>나만의 검색 폼</h3>
+   	<hr>
+   	<mark>검색할 단어를 입력하세요 (최대 길이는 10문자 입니다).</mark><br>
+   	<form name="naver" action="https://search.naver.com/search.naver"
+   		method="get">
+   	네이버 검색:	<input size="10" name="query" type="text" value=""><br>
+   	<input type="submit" name="search" value="검색">
+   	</form>
+</body>
+</html>
+

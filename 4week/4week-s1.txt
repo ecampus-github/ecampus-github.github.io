@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head><title>과제1 summary details mark time progress</title></head>
+<style>
+	 span { color : red; font-size : 15px; } 
+</style>
+	<body>
+   	<h3>라디오 실습 박스</h3>
+   	<hr>
+    	웹 프로그래임특론의 교수는 누구인가요?
+	<form>
+		<input type="radio" name="짜장면" value="1">이우선
+		<input type="radio" name="짜장면" value="1">우용태
+		<input type="radio" name="짜장면" value="1">정성환
+		<input type="radio" name="짜장면" value="1">이수현
+		<input type="radio" name="짜장면" value="1">차정원
+		<input type="radio" name="짜장면" value="1">정성욱
+		<input type="radio" name="짜장면" value="1">안동혁
+		<input type="radio" name="짜장면" value="1">강동현<br>
+	</form>
+	<hr>
+	<details>
+    	<summary>강동현</summary>
+    	<p>이메일: donghyun@changwon.ac.kr</p>   
+    </details>
+	<hr><span><b>과목명</b></span><br>
+	<mark>웹프로그래밍특론<br>
+	학습 진도(40/100)<progress value="4" max="10"></progress>
+    </mark><br>
+	</body>
+</html>
+
